@@ -6,7 +6,7 @@ describe('MyFunction', function () { //outputs MyFunction to the console.
             const deckOfFiftyTwo = new Deck();// creates a new deck of 52 cards for testing.
             deckOfFiftyTwo.cards
 			expect(deckOfFiftyTwo.cards.length).to.equal(52); //deckOfFiftyTwo.cards.length iterates through the array to find 52 elements.
-		});                                                   //if you change the equal(52) to anything else an error should pop up.
+		});                                                   //if you change the equal(52) to anything else an error should show up.
     });
 })
 

@@ -31,7 +31,7 @@ shuffledDeck(){
     }
 }
 
-// create a deck of cards by combining the cardSuit array and the values array then returning the combined array in the Cards class.
+// create a deck of cards by combining the cardSuit array and the values array then returning the combined array in the Deck class.
 function newDeckOfCards(){
     return cardSuit.flatMap(suit => {
         //console.log('this is the suit', suit)
